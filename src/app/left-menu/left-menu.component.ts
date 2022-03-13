@@ -9,7 +9,7 @@ import {ChangeDetectorRef, Component, OnDestroy} from '@angular/core';
 export class LeftMenuComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
 
-  fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
+  fillerNav = Array.from({length: 5}, (_, i) => `Nav Item ${i + 1}`);
 
   fillerContent = Array.from(
     {length: 5},
