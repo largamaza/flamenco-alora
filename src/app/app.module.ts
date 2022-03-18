@@ -12,14 +12,20 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { LoginFormComponent } from './login-form/login-form.component';
+import {MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LeftMenuComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,10 +36,18 @@ import { LoginFormComponent } from './login-form/login-form.component';
     MatIconModule,
 
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+
+   // MatFormFieldModule,
+    //FormsModule,
+   // ReactiveFormsModule,
+    MatInputModule,
+    MatCardModule
 
   ],
-  providers: [],
+  providers: [
+    //{provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
