@@ -19,6 +19,8 @@ import { MatInputModule } from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { HistoryComponent } from './history/history.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { HeaderButtonTranslateComponent } from './header-button-translate/header-button-translate.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { HistoryComponent } from './history/history.component';
     LeftMenuComponent,
     LoginFormComponent,
     HomeComponent,
-    HistoryComponent
+    HistoryComponent,
+    HeaderButtonTranslateComponent
   ],
   imports: [
     BrowserModule,
@@ -44,8 +47,9 @@ import { HistoryComponent } from './history/history.component';
     //FormsModule,
    // ReactiveFormsModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
 
+    MatMenuModule
   ],
   providers: [
     //{provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
