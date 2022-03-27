@@ -2,10 +2,10 @@
   <mat-icon>g_translate</mat-icon>
 </button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>
+  <button mat-menu-item (click)="useLanguage('es')">
     <span>Español</span>
   </button>
-  <button mat-menu-item>
+  <button mat-menu-item (click)="useLanguage('en')">
     <span>English</span>
   </button>
 </mat-menu>
