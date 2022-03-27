@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+//import {TranslateService} from '@ngx-translate/core';
+
+
 @Component({
   selector: 'app-header-button-translate',
   templateUrl: './header-button-translate.component.html',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderButtonTranslateComponent implements OnInit {
 
-  constructor() { }
+  /*constructor(private translate: TranslateService) {
+    translate.setDefaultLang('en');
+}*/
+
+constructor(){}
 
   ngOnInit(): void {
   }
+
 
 }

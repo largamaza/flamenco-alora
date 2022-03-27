@@ -3,8 +3,16 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+
     "flamenco-alora": {
+        "i18n": {
+          "sourceLocale": "en-US",
+          "locales": {
+            "es": "src/locale/messages.es.xlf"
+          }
+       },
       "projectType": "application",
+
       "schematics": {},
       "root": "",
       "sourceRoot": "src",

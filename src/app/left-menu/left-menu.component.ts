@@ -9,7 +9,7 @@ import {ChangeDetectorRef, Component, OnDestroy} from '@angular/core';
 export class LeftMenuComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
   shouldRun = true;
-
+//$localize':@@id:source message text';
   fillerNav = [
     {
       name:'Historia',
