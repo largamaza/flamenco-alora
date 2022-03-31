@@ -8,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class LoginFormComponent implements OnInit {
   hide = true;
 
+  form: any = {
+    username: null,
+    password: null
+  };
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(): void {
+    console.log('asdfasdf'+ this.form.username);
   }
 
 }

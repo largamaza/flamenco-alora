@@ -1,5 +1,12 @@
 {
   "button": {
     "home.like" : "Me Gusta"
-  }
+  },
+  "login":{
+    "userLabel": "Nombre de usuario",
+    "pssLabel" : "Contraseña",
+    "mainlabel" : "Formulario de acceso",
+    "buttonlabel": "Enviar"
+  },
+  "history" : "Fue fundada en Noviembre de 1970, y es la segunda en antigüedad en Málaga y provincia. Fue madrina de esta, la única que entonces había en Málaga como es la Peña Juan Breva. La Peña Flamenca de Álora fue después madrina de algunas Peñas como es la de El Burgo, Las Lagunas, y algunas otras. En el año 1971 celebró el primer Festival de Cante grande donde participaron los mejores del momento, Antonio Mairena, Fosforito, Menese, Chocolate etc., en Matilde Coral y los Bolecos al Baile. Por este Festival han pasado prácticamente todas las figuras del Cante, muchos de ellos desgraciadamente ya desaparecidos. El ultimo Festival que se ha celebrado en este 2007 ha sido el Nº 34 que pudiera haber sido el Nº 37, pero desgraciadamente tres de ellos se quedaron en el camino por falta de medios económicos. Los primeros Festivales se celebraban en Septiembre, después en Julio y desde hace unos años en Agosto. Organizó durante muchos años, concursos de cante flamenco, uno abierto para todo aficionado y otro juvenil. Tambien celebró durante unos años concursos de Saetas. En el año 1976 la Peña grabó un L.P. con cantaores locales, y en el 1995 con motivo del 25 aniversario, se editó un libro con el historial de la Peña y se grabó otro L. P. tambien con los cantaores y Guitarristas locales. En Marzo del 2006 vio la luz otro Libro titulado «Cantaores y Guitarristas de Álora” donde aparecen las biografías de «EI Canario» “El Perote» “Los Penas» y así hasta llegar a los actuales. Actualmente las actividades que organiza la Peña son las siguientes: Sábados Flamencos de Marzo. Marzo. Festival de Cante Grande. Agosto. Día del Socio. Octubre. Misa Flamenca día Aniversario. Noviembre. Navidad Flamenca. Diciembre. Además de otros actos dependiendo del presupuesto con el que se cuente. Tambien ésta Peña cuenta con otros eventos Flamencos, que disfrutamos todas las Peñas Federadas a través de Diputación, y de la Federación de Peñas Flamencas. Actualmente la preside el Cantaor «Pepe Vergara de Alora”"
 }

@@ -1,5 +1,14 @@
 {
   "button": {
     "home.like" : "I like"
-  }
+  },
+  "login":{
+    "userLabel": "User name",
+    "pssLabel" : "Password",
+    "mainlabel" : "Sign-in",
+    "buttonlabel": "Sign-in"
+  },
+  "history": "It was founded in November 1970, and is the second oldest in Malaga and province. She was the godmother of this, the only one in Malaga at the time, such as the Peña Juan Breva. The Peña Flamenca de Álora was later the godmother of some Peñas such as El Burgo, Las Lagunas, and some others. In the year 1971 I celebrated the first Cante Grande Festival where the best of the moment participated, Antonio Mairena, Fosforito, Menese, Chocolate etc., in Matilde Coral and the Bolecos al Baile. Practically all the figures of Cante have passed through this Festival, many of them unfortunately already disappeared. The last Festival held in 2007 was No. 34, which could have been No. 37, but unfortunately three of them fell by the wayside due to lack of financial means. The first Festivals were held in September, then in July and for a few years in August. For many years, he organized flamenco singing contests, one open to all fans and another for young people. He also enjoyed Saetas contests for a few years. In 1976, Peña recorded an L.P. with local singers, and in 1995 on the occasion of the 25th anniversary, a book was published with the history of the Peña and another L.P. also with local singers and guitarists. In March 2006, another Book entitled «Cantaores y Guitarristas de Álora» was published, containing the biographies of «EI Canario» «El Perote» «Los Penas» and so on until reaching the current ones. Currently the activities organized by the Peña are the following: Flamenco Saturdays in March. March. Great Singing Festival. August. Partner's Day. October. Flamenco Mass on Anniversary Day. November. Flemish Christmas. December. In addition to other acts that depend on the budget available. This Peña also has other Flamenco events, which all Federated Peñas enjoy through the Diputación, and the Federation of Flamenco Peñas. It is currently chaired by the singer «Pepe Vergara de Alora»"
+
+
 }

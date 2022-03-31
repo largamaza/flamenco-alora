@@ -1,15 +1,24 @@
-<mat-form-field appearance="fill">
-  <mat-label>User name</mat-label>
-  <input matInput placeholder="User Name">
-  <!-- <mat-hint>Hint</mat-hint> -->
-</mat-form-field>
+<mat-card class="box">
+  <mat-card-header>
+    <mat-card-title>{{ 'login.mainlabel' | translate }}</mat-card-title>
+  </mat-card-header>
 
+  <form class="login-form" name="form" #f="ngForm" (ngSubmit)="f.form.valid && onSubmit()">
+    <mat-card-content>
+      <mat-form-field appearance="fill" class="full-with">
+        <mat-label>{{ 'login.userLabel' | translate }}</mat-label>
+        <input name="username" #username="ngModel" [(ngModel)]="form.username" matInput placeholder="{{ 'login.userLabel' | translate }}" required>
+        <!-- <mat-hint>Hint</mat-hint> -->
+      </mat-form-field>
 
-
-<mat-form-field appearance="fill">
-  <mat-label>password</mat-label>
-  <input matInput [type]="hide ? 'password' : 'text'">
-  <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-  </button>
-</mat-form-field>
+      <mat-form-field appearance="fill" class="full-with">
+        <mat-label>{{ 'login.pssLabel' | translate }}</mat-label>
+        <input name="password" #password="ngModel" [(ngModel)]="form.password" matInput [type]="hide ? 'password' : 'text'" required>
+        <button class="iconPssEye" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+    </mat-card-content>
+    <button mat-stroked-button color="accent" class="btn-block">{{ 'login.buttonlabel' | translate }}</button>
+  </form>
+</mat-card>

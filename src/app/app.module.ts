@@ -13,7 +13,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { LoginFormComponent } from './login-form/login-form.component';
 //import {MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
-//import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
@@ -48,7 +48,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     MatListModule,
 
    // MatFormFieldModule,
-    //FormsModule,
+    FormsModule,
    // ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
