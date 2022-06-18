@@ -4,12 +4,14 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { HomeComponent } from './home/home.component';
 import { HistoryComponent } from './history/history.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { UserlistComponent } from './userlist/userlist.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginFormComponent },
   { path: 'home', component: HomeComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'gallery', component: GalleryComponent },
+  { path: 'userList', component: UserlistComponent },
 
   //TODO meter todos los links de file nav
 ];

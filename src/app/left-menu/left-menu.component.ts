@@ -23,7 +23,14 @@ export class LeftMenuComponent implements OnDestroy {
       link: 'videos'},
     {
       name:'Conciertos',
-      link: 'concerts'}];
+      link: 'concerts'
+    }
+    ,
+    {
+      name:'Lista Socios',
+      link: 'userList'
+    }
+    ];
 
   private _mobileQueryListener: () => void;
 

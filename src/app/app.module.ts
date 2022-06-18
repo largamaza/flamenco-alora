@@ -29,6 +29,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryModule } from '@daelmaak/ngx-gallery';
 
 import { SwiperModule } from "swiper/angular";
+import { UserlistComponent } from './userlist/userlist.component';
+
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,8 @@ import { SwiperModule } from "swiper/angular";
     HomeComponent,
     HistoryComponent,
     HeaderButtonTranslateComponent,
-    GalleryComponent
+    GalleryComponent,
+    UserlistComponent
   ],
   imports: [
     GalleryModule,
@@ -58,7 +62,7 @@ import { SwiperModule } from "swiper/angular";
    // ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-
+    MatTableModule,
     MatMenuModule,
     HttpClientModule,
     TranslateModule.forRoot({
