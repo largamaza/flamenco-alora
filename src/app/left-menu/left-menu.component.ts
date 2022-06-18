@@ -17,7 +17,7 @@ export class LeftMenuComponent implements OnDestroy {
     },
     {
       name: 'Galeria',
-      link: 'galery'},
+      link: 'gallery'},
     {
       name: 'Videos',
       link: 'videos'},

@@ -25,6 +25,10 @@ import { HeaderButtonTranslateComponent } from './header-button-translate/header
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryModule } from '@daelmaak/ngx-gallery';
+
+import { SwiperModule } from "swiper/angular";
 
 @NgModule({
   declarations: [
@@ -34,9 +38,11 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     LoginFormComponent,
     HomeComponent,
     HistoryComponent,
-    HeaderButtonTranslateComponent
+    HeaderButtonTranslateComponent,
+    GalleryComponent
   ],
   imports: [
+    GalleryModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -61,7 +67,9 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
             useFactory: HttpLoaderFactory,
             deps: [HttpClient]
         }
-    })
+    }),
+
+    SwiperModule
   ],
   providers: [
 
