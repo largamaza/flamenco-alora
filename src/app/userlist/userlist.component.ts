@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserListService } from '../services/user-list.service';
 import {animate, state, style, transition, trigger} from '@angular/animations';
+import { getAllLifecycleHooks } from '@angular/compiler/src/lifecycle_reflector';
 
 @Component({
   selector: 'app-userlist',
@@ -18,21 +19,27 @@ export class UserlistComponent implements OnInit {
 
   constructor(private userListService : UserListService) { }
 
-  dataSource = [];
-  columnsToDisplay = ['id', 'name_socio'];
-  columnsToDisplayWithExpand = [...this.columnsToDisplay, 'expand'];
+  dataSource = this.getAll();
+  columnsToDisplay = ['id', 'name_socio', 'surname_socio'];
+  columnsToDisplayWithExpand = [...this.columnsToDisplay, 'status', 'actions', 'expand'];
   expandedElement: PeriodicElement | null;
 
 
   getAll() {
-    debugger;
     return this.userListService.getAll();
   }
 
   ngOnInit(): void {
-    this.dataSource = this.getAll();
+   // this.dataSource = this.getAll();
   }
 
+  deleteForever(): void {
+    console.log('foreverrrrr')
+  }
+
+  baja(): void {
+    console.log('baja')
+  }
 }
 
 
